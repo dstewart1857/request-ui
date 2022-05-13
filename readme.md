@@ -48,7 +48,7 @@ If you need to update `npm`, you can do so using `npm`! Cool right? After runnin
 
 ## Install
 
-    $ git clone https://gitlab.com/maximumsnow/wordle-react
+    $ git clone https://gitlab.com/maximumsnow/magic-8-ball-ui.git
     $ cd wordle-react
     $ npm install
 
@@ -64,4 +64,6 @@ If you need to update `npm`, you can do so using `npm`! Cool right? After runnin
 
 ### 1. Connect the Magic 8 Ball API to the UI
 
-This project contains a magic 8 ball UI. Edit the ./src/getAnswer.js file to fetch and return the answer from the Magic 8 Ball API you completed in an earlier exercise. 
+This project contains a magic 8 ball UI. Refactor the acquireAnswer function in ./src/App.js file to connect to the mgice 8 ball you completed in an earlier exercise. When the "Ask the Magic Eight Ball!" button is pressed a GET request should be sent to the magic 8 ball API and the text response should be displayed in the magic 8 ball UI.
+
+Note: If you are getting a CORS error you will need to enable CORS on your C# API. Here is a Microsoft Doc outlining the steps: [CORS with named policy and middleware](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-6.0)
