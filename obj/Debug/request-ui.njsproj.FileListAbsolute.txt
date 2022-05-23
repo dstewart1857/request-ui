@@ -1,0 +1,2 @@
+C:\Repos\request-ui\obj\Debug\request-ui.njsproj.CoreCompileInputs.cache
+C:\Repos\request-ui\bin\Microsoft.NodejsTools.WebRole.dll
